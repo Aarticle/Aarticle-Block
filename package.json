@@ -3,12 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
-  "scripts": {
-    "start": "node app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Elliot Briant, Joe Rezendez, Phyllis Wong, Savan Khaur",
-  "license": "MIT",
   "dependencies": {
     "app-store-reviews": "^0.0.4",
     "boom": "^2.9.0",
@@ -35,5 +29,28 @@
     "uniq": "^1.0.1",
     "vision": "^3.0.0",
     "voice.js": "^0.1.5"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aarticle/Aarticle-Block.git"
+  },
+  "keywords": [
+    "dnn",
+    "decentralizeds",
+    "news",
+    "network",
+    "dapp",
+    "ethereum"
+  ],
+  "author": "Elliot Briant, Joe Rezendez, Phyllis Wong, Savan Khaur",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Aarticle/Aarticle-Block.git/issues"
+  },
+  "homepage": "https://github.com/Aarticle/Aarticle-Block.git"
 }
